@@ -1,0 +1,27 @@
+@import './../../node_modules/mapbox-gl/dist/mapbox-gl.css';
+
+html, body{
+  //height: 100%;
+  margin:0;
+  padding:0;
+  font-family: Ubuntu, Arial, Helvetica, sans-serif;
+}
+
+nav.top-nav {
+  background-color: rgb(29,28,28);
+  border-bottom: 1px solid #FFFFFF;
+  height: 50px;
+  margin-top: 0;
+  position: relative;
+  z-index: 3;
+
+  a {
+    background-color: #454749;
+    color: rgb(240, 0, 50);
+    text-transform: uppercase;
+  }
+}
+
+a.active {
+  background-color: gray;
+}
